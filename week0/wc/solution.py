@@ -20,7 +20,7 @@ def main():
             for i in range(0,len(lines)):
                 count += 1
         file.close()
-        print(count)
+        return count
     else:
         print("No agruments given!")
 

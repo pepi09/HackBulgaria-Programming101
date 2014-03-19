@@ -10,7 +10,7 @@ class CatTest(unittest.TestCase):
     def test_cat(self): 
         self.file_handle.write("    sdfg") 
         self.file_handle.close() 
-        call("python3.3 cat.py " + self.file_name, shell=True) 
+        call("python3.3 solution.py " + self.file_name, shell=True) 
         f = open(self.file_name, "r") 
         contents = f.read() 
         f.close()
