@@ -30,5 +30,4 @@ def get_square(matrix,row,column): #row,column - indexes of the first elemenr of
 	for i in range(3):
 		for j in range(3):
 			square.append(matrix[row + i][column + j])
-	print (sorted(square))
 	return square
